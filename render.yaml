@@ -12,12 +12,12 @@ services:
         value: 5000
 
   # Frontend Static Site (React + Vite)
-  - type: static
+  - type: web
     name: student-hub-frontend
-    plan: free
+    runtime: static
     rootDir: frontend
     buildCommand: npm install && npm run build
-    staticPublishPath: dist
+    staticPublishPath: ./dist
     routes:
       - type: rewrite
         source: /*
