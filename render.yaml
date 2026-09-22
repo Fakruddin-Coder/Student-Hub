@@ -1,0 +1,27 @@
+services:
+  # Backend Web Service (Node.js + Express)
+  - type: web
+    name: student-hub-backend
+    runtime: node
+    plan: free
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: PORT
+        value: 5000
+
+  # Frontend Static Site (React + Vite)
+  - type: static
+    name: student-hub-frontend
+    plan: free
+    rootDir: frontend
+    buildCommand: npm install && npm run build
+    staticPublishPath: dist
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
+    envVars:
+      - key: VITE_API_URL
+        sync: false
