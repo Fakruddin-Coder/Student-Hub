@@ -1,5 +1,10 @@
 # Student Hub - Student Record Management System
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)](https://student-hub-frontend-6994.onrender.com)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Fakruddin-Coder/Student-Hub)
+
+> 🌐 **Live Deployed URL:** [https://student-hub-frontend-6994.onrender.com](https://student-hub-frontend-6994.onrender.com)
+
 A sleek, modern, and responsive Student Record Management web application built with **React + Vite** and **Node.js + Express**. Designed with a professional blue-and-white theme, light/dark mode support, real-time statistics, search, and dynamic filtering.
 
 ---
@@ -258,8 +263,9 @@ The repository includes a ready-to-use `render.yaml` Blueprint to deploy both th
 
 ---
 
-## 14. Author
+## 14. Author & Live Links
 
 - **Author**: Fakruddin ([@Fakruddin-Coder](https://github.com/Fakruddin-Coder))
+- **Live Deployed Web Application**: [https://student-hub-frontend-6994.onrender.com](https://student-hub-frontend-6994.onrender.com)
 - **Repository**: [https://github.com/Fakruddin-Coder/Student-Hub.git](https://github.com/Fakruddin-Coder/Student-Hub.git)
 - **License**: MIT
